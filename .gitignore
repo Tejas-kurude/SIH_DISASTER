@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.venv/
+/.mise.toml
+
+# Build outputs
+dist/
+build/
+.cache/
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Local Large Datasets & Generated Reports (Keep out of Git)
+backend/data/
+backend/reports/*.pdf
+
+# Figma / Platform
+.figma/
+/.plugins/
+/.opencode-skills/
+
+# Environment
+.env
+.env.local
+.env.*.local
